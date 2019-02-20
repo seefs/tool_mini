@@ -1,0 +1,22 @@
+
+
+F:\SBD_6531_12C_DA\project\S039_ALF_X2447D_F3
+
+第一次New
+cd F:\SBD_6531_12C_DA\project
+S039_ALF_K2802_F2.bat
+
+
+
+编译模块
+cd F:\SBD_6531_12C_DA\
+make p=S036_OQ_K300_KRONO_JT_F4 m=custom_drv
+make p=S036_OQ_K300_KRONO_JT_F4 image
+
+或 (1行命令)
+make p=S036_OQ_K300_KRONO_JT_F4 m=custom_drv update image
+
+
+
+
+

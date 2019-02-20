@@ -1,0 +1,26 @@
+
+
+F:\SBD_6531_12C_DA\project\S039_ALF_X2447D_F3
+
+第一次New
+make M105_MLT_S2401_ZX_F4 gprs new
+
+
+
+
+编译模块
+cd F:\11CW1352MP\11CW1352MP
+make M105_MLT_S1716_GRAVITY_BACK_UP_F4 gprs remake custom
+
+
+
+
+
+下载工具
+  FlashTool_v5.1528.00
+1 Scatter/config File, 选择
+    \build\M101_COOLCEL_.._F3\M101_COOLCEL_.._F3_.._T01.bin\FARSIGHTED61M_CN_11C_BB.cfg
+2  选择
+    option->usb Download/Readback
+    option->usb Download Without battery
+    option->Format Fat(auto)->Format Fat
