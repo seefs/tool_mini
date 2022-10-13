@@ -1,0 +1,361 @@
+
+
+工作表事件：
+1   Activate  激活工作表、图表工作表或嵌入式图表时发生事件
+2   BeforeDoubleClick 双击工作表时发生事件
+3   BeforeRightClick  右键单击工作表时发生事件
+4   Calculate  在对工作表进行重新计算之后发生此事件
+5   Change  当更改单元格值或外部链接引起单元格值更改时发生此事件
+6   Deactivate  图表或工作表停用时发生此事件
+7   FollowHyperlink  当单 时发生此事件
+8   PivotTableUpdate  数据透视表更新后发生事件
+9   SelectionChange  当工作表的选定区域改变时发生事件（即单元格激活）
+工作表事件是最底层的事件，它只有9个事件。只有存放代码的工作表才可以触发工作表事件。
+Open、BeforeClose BeforSave、Activate、Deactivate
+
+数据库和清单管理函数
+DAVERAGE   返回选定数据库项的平均值
+DCOUNT   计算数据库中包含数字的单元格的个数
+DCOUNTA   计算数据库中非空单元格的个数
+DGET   从数据库中提取满足指定条件的单个记录
+DMAX   返回选定数据库项中的最大值
+DMIN   返回选定数据库项中的最小值
+DPRODUCT   乘以特定字段（此字段中的记录为数据库中满足指定条件的记录）中的值
+DSTDEV   根据数据库中选定项的示例估算标准偏差
+DSTDEVP   根据数据库中选定项的样本总体计算标准偏差
+DSUM   对数据库中满足条件的记录的字段列中的数字求和
+DVAR   根据数据库中选定项的示例估算方差
+DVARP   根据数据库中选定项的样本总体计算方差
+GETPIVOTDATA   返回存储在数据透视表中的数据
+日期和时间函数
+DATE   返回特定时间的系列数
+DATEDIF   计算两个日期之间的年、月、日数
+DATEVALUE   将文本格式的日期转换为系列数
+DAY   将系列数转换为月份中的日
+DAYS360   按每年 360 天计算两个日期之间的天数
+EDATE   返回在开始日期之前或之后指定月数的某个日期的系列数
+EOMONTH   返回指定月份数之前或之后某月的最后一天的系列数
+HOUR   将系列数转换为小时
+MINUTE   将系列数转换为分钟
+MONTH   将系列数转换为月
+NETWORKDAYS   返回两个日期之间的完整工作日数
+NOW   返回当前日期和时间的系列数
+SECOND   将系列数转换为秒
+TIME   返回特定时间的系列数
+TIMEVALUE   将文本格式的时间转换为系列数
+TODAY   返回当天日期的系列数
+WEEKDAY   将系列数转换为星期
+WORKDAY   返回指定工作日数之前或之后某日期的系列数
+YEAR   将系列数转换为年
+YEARFRAC   返回代表 start_date（开始日期）和 end_date（结束日期）之间天数的以年为单位的分数
+DDE 和外部函数
+CALL   调用动态链接库 (DLL) 或代码源中的过程
+REGISTER.ID   返回已注册的指定 DLL 或代码源的注册 ID
+SQL.REQUEST   连接外部数据源，并从工作表中运行查询，然后将结果作为数组返回，而无需进行宏编程。
+有关 CALL 和 REGISTER 函数的其他信息
+工程函数
+BESSELI   返回经过修改的贝塞尔函数 In(x)
+BESSELJ   返回贝塞尔函数 Jn(x)
+BESSELK   返回经过修改的贝塞尔函数 Kn(x)
+BESSELY   返回贝塞尔函数 Yn(x)
+xlfctBIN2DEC BIN2DEC   将二进制数转换为十进制数
+BIN2HEX   将二进制数转换为十六进制数
+BIN2OCT   将二进制数转换为八进制数
+COMPLEX   将实系数和虚系数转换为复数
+CONVERT   将一种度量单位制中的数字转换为另一种度量单位制
+DEC2BIN   将十进制数转换为二进制数
+DEC2HEX   将十进制数转换为十六进制数
+DEC2OCT   将十进制数转换为八进制数
+DELTA   检测两个值是否相等
+ERF   返回误差函数
+ERFC   返回余误差函数
+GESTEP   检测数字是否大于某个阈值
+HEX2BIN   将十六进制数转换为二进制数
+HEX2DEC   将十六进制数转换为十进制数
+HEX2OCT   将十六进制数转换为八进制数
+IMABS   返回复数的绝对值（模）
+IMAGINARY   返回复数的虚系数
+IMARGUMENT   返回参数 theta，一个以弧度表示的角
+IMCONJUGATE   返回复数的共轭复数
+IMCOS   返回复数的余弦
+IMDIV   返回两个复数的商
+IMEXP   返回复数的指数
+IMLN   返回复数的自然对数
+IMLOG10   返回复数的常用对数
+IMLOG2   返回复数的以 2 为底数的对数
+IMPOWER   返回复数的整数幂
+IMPRODUCT   返回两个复数的乘积
+IMREAL   返回复数的实系数
+IMSIN   返回复数的正弦
+IMSQRT   返回复数的平方根
+IMSUB   返回两个复数的差
+IMSUM   返回两个复数的和
+OCT2BIN   将八进制数转换为二进制数
+OCT2DEC   将八进制数转换为十进制数
+OCT2HEX   将八进制数转换为十六进制数
+财务函数
+ACCRINT   返回定期付息有价证券的应计利息
+ACCRINTM   返回到期一次性付息有价证券的应计利息
+AMORDEGRC   返回每个会计期间的折旧值
+AMORLINC   返回每个会计期间的折旧值   
+COUPDAYBS   返回当前付息期内截止到成交日的天数
+COUPDAYS   返回成交日所在的付息期的天数
+COUPDAYSNC   返回从成交日到下一付息日之间的天数
+COUPNCD   返回成交日过后的下一付息日的日期
+COUPNUM   返回成交日和到期日之间的利息应付次数
+COUPPCD   返回成交日之前的上一付息日的日期
+CUMIPMT   返回两个期间之间累计偿还的利息数额
+CUMPRINC   返回两个期间之间累计偿还的本金数额
+DB   使用固定余额递减法，返回一笔资产在指定期间内的折旧值
+DDB   使用双倍余额递减法或其他指定方法，返回一笔资产在指定期间内的折旧值
+DISC   返回有价证券的贴现率
+DOLLARDE   将按分数表示的价格转换为按小数表示的价格
+DOLLARFR   将按小数表示的价格转换为按分数表示的价格
+DURATION   返回定期付息有价证券的修正期限
+EFFECT   返回实际年利率
+FV   返回投资的未来值
+FVSCHEDULE   基于一系列复利返回本金的未来值
+INTRATE   返回一次性付息证券的利率
+IPMT   返回给定期间内投资的利息偿还额
+IRR   返回一组现金流的内部收益率
+ISPMT   计算在投资的特定期间内支付的利息
+MDURATION   返回假设面值 $100 的有价证券的 Macauley 修正期限
+MIRR   返回正负现金流使用不同利率的修正内部收益率
+NOMINAL   返回名义年利率
+NPER   返回投资的期数
+NPV   基于一系列现金流和固定的各期贴现率，返回一项投资的净现值
+ODDFPRICE   返回首期付息日不固定的面值 $100 的有价证券的价格
+ODDFYIELD   返回首期付息日不固定的有价证券的收益率
+ODDLPRICE   返回末期付息日不固定的面值 $100 的有价证券的价格
+ODDLYIELD   返回末期付息日不固定的有价证券的收益率
+PMT   返回投资或贷款的每期付款额
+PPMT   返回投资在某一给定期次内的本金偿还额
+PRICE   返回定期付息的面值 $100 的有价证券的价格
+PRICEDISC   返回折价发行的面值 $100 的有价证券的价格
+PRICEMAT   返回到期付息的面值 $100 的有价证券的价格
+PV   返回投资的现值
+RATE   返回年金的各期利率
+RECEIVED   返回一次性付息的有价证券到期收回的金额
+SLN   返回一项资产每期的直线折旧费
+SYD   返回某项资产按年限总和折旧法计算的某期的折旧值
+TBILLEQ   返返回国库券的债券等效收益率
+TBILLPRICE   返回面值 $100 的国库券的价格
+TBILLYIELD   返回国库券的收益率
+VDB   使用递减余额法，返回指定期间内或某一时间段内的资产折旧额
+XIRR   返回一组不定期发生的现金流的内部收益率
+XNPV   返回一组不定期发生的现金流的净现值
+YIELD   返回定期付息有价证券的收益率
+YIELDDISC   返回折价发行的有价证券的年收益率，例如：国库券
+YIELDMAT   返回到期付息的有价证券的年收益率
+信息函数
+CELL   返回有关单元格格式、位置或内容的信息
+COUNTBLANK   计算区域中空单元格的个数
+ERROR.TYPE   返回对应于错误类型的数字
+INFO   返回有关当前操作环境的信息
+ISBLANK   如果值为空，则返回 TRUE。
+ISERR   如果值为除 #N/A 以外的错误值，则返回 TRUE。
+ISERROR   如果值为任何错误值，则返回 TRUE。
+ISEVEN   如果数为偶数，则返回 TRUE。
+ISLOGICAL   如果值为逻辑值，则返回 TRUE。
+ISNA   如果值为 #N/A 错误值，则返回 TRUE。
+ISNONTEXT   如果值不是文本，则返回 TRUE。
+ISNUMBER   如果值为数字，则返回 TRUE。
+ISODD   如果数字为奇数，则返回 TRUE。
+ISREF   如果值为引用，则返回 TRUE。
+ISTEXT   如果值为文本，则返回 TRUE。
+N   返回转换为数字的值
+NA   返回错误值 #N/A
+xlfctTYPE TYPE   返回表示值的数据类型的数字
+逻辑函数
+AND   如果所有参数为 TRUE，则返回 TRUE
+FALSE   返回逻辑值 FALSE
+IF   指定要执行的逻辑检测
+NOT   反转参数的逻辑值
+OR   如果任何参数为 TRUE，则返回 TRUE
+TRUE   返回逻辑值 TRUE
+查找和引用函数
+ADDRESS   以文本形式返回对工作表中单个单元格的引用
+AREAS   返回引用中的区域数
+CHOOSE   从值的列表中选择一个值
+COLUMN   返回引用的列号
+COLUMNS   返回引用中的列数
+HLOOKUP   查找数组的顶行并返回指示单元格的值
+HYPERLINK   创建快捷方式或跳转，打开存储在网络服务器、企业内部网或 Internet 上的文档
+INDEX   使用索引从引用或数组中选择值
+INDIRECT   返回由文本值表示的引用
+LOOKUP   在向量或数组中查找值
+MATCH   在引用或数组中查找值
+OFFSET   从给定引用中返回引用偏移量
+ROW   返回引用的行号
+ROWS   返回引用中的行数
+TRANSPOSE   返回数组的转置
+VLOOKUP   查找数组的第一列并移过行，然后返回单元格的值
+数学和三角函数
+ABS   返回数的绝对值
+ACOS   返回数的反余弦
+ACOSH   返回数的反双曲余弦值
+ASIN   返回数的反正弦
+ASINH   返回数的反双曲正弦值
+ATAN   返回数的反正切
+ATAN2   从 X 和 Y 坐标返回反正切
+ATANH   返回参数的反双曲正切值
+CEILING   对数字取整为最接近的整数或最接近的多个有效数字
+COMBIN   返回给定数目对象的组合数
+COS   返回数的余弦
+COSH   返回数的双曲线余弦
+COUNTIF   计算符合给定条件的区域中的非空单元格数
+DEGREES   将弧度转换为度
+EVEN   将数向上取整至最接近的偶数整数
+EXP   返回 e 的指定数乘幂
+FACT   返回数的阶乘
+FACTDOUBLE   返回参数 Number 的半阶乘
+FLOOR   将参数 Number 沿绝对值减小的方向取整
+GCD   返回最大公约数
+INT   将数向下取整至最接近的整数
+LCM   返回最小公倍数
+LN   返回数的自然对数
+LOG   返回数的指定底数的对数
+LOG10   返回以 10 为底的对数
+MDETERM   返回数组的矩阵行列式
+MINVERSE   返回数组的反矩阵
+MMULT   返回两个数组的矩阵乘积
+MOD   返回两数相除的余数
+MROUND   返回参数按指定基数取整后的数值
+MULTINOMIAL   返回一组数的多项式
+ODD   将数取整至最接近的奇数整数
+PI   返回 Pi 值
+POWER   返回数的乘幂结果
+PRODUCT   将所有以参数形式给出的数字相乘
+QUOTIENT   返回商的整数部分
+RADIANS   将度转换为弧度
+RAND   返回 0 和 1 之间的随机数
+RANDBETWEEN   返回指定数之间的随机数
+ROMAN   将阿拉伯数字转换为文本形式的罗马数字
+ROUND   将数取整至指定数
+ROUNDDOWN   将数向下*近 0 值取整
+ROUNDUP   将数向上远离 0 值取整
+SERIESSUM   返回基于公式的幂级数的和
+SIGN   返回数的正负号
+SIN   返回给定角度的正弦
+SINH   返回数的双曲正弦值
+SQRT   返回正平方根
+SQRTPI   返回某数与 Pi 的乘积的平方根
+SUBTOTAL   返回清单或数据库中的分类汇总
+SUM   添加参数
+SUMIF   按给定条件添加指定单元格
+SUMPRODUCT   返回相对应的数组部分的乘积和
+SUMSQ   返回参数的平方和
+SUMX2MY2   返回两个数组中相对应值的平方差之和
+SUMX2PY2   返回两个数组中相对应值的平方和之和
+SUMXMY2   返回两个数组中相对应值差的平方之和
+TAN   返回数的正切
+TANH   返回数的双曲正切值
+TRUNC   将数截尾为整数
+统计函数
+AVEDEV   返回一组数据与其均值的绝对偏差的平均值
+AVERAGE   返回参数的平均值
+AVERAGEA   返回参数的平均值，包括数字、文本和逻辑值
+BETADIST   返回 Beta 分布累积函数的函数值
+BETAINV   返回 Beta 分布累积函数的反函数值
+BINOMDIST   返回单独项二项式分布概率
+CHIDIST   返回 chi 平方分布的单尾概率
+CHIINV   返回 chi 平方分布的反单尾概率
+CHITEST   返回独立性检验值
+CONFIDENCE   返回总体平均值的置信区间
+CORREL   返回两个数据集之间的相关系数
+COUNT   计算参数列表中的数字多少
+COUNTA   计算参数列表中的值多少
+COVAR   返回协方差，即成对偏移乘积的平均数
+CRITBINOM   返回使累积二项式分布小于等于临界值的最小值
+DEVSQ   返回偏差的平方和
+EXPONDIST   返回指数分布
+FDIST   返回 F 概率分布
+FINV   返回反 F 概率分布
+FISHER   返回 Fisher 变换
+FISHERINV   返回反 Fisher 变换
+FORECAST   根据给定的数据计算或预测未来值
+FREQUENCY   返回作为矢量数组的频率分布
+FTEST   返回 F 检验的结果
+GAMMADIST   返回伽玛分布
+GAMMAINV   返回反伽玛累积分布
+GAMMALN   返回伽玛函数的自然对数，Γ(x)
+GEOMEAN   返回几何平均数
+GROWTH   根据给定的数据预测指数增长值
+HARMEAN   返回数据集合的调和平均值
+HYPGEOMDIST   返回超几何分布
+INTERCEPT   返回回归线截距
+KURT   返回数据集的峰值
+LARGE   返回数据集中第 k 个最大值
+LINEST   返回线条趋势的参数
+LOGEST   返回指数趋势的参数
+LOGINV   返回反对数正态分布
+LOGNORMDIST   返回对数正态分布的累积函数
+MAX   返回参数列表中的最大值
+MAXA   返回参数列表中的最大值，包括数字、文本和逻辑值
+MEDIAN   返回给定数字的中位数
+MIN   返回参数列表的最小值
+MINA   返回参数列表中的最小值，包括数字、文本和逻辑值
+MODE   返回数据集中的出现最多的值
+NEGBINOMDIST   返回负二项式分布
+NORMDIST   返回普通累积分布
+NORMINV   返回反普通累积分布
+NORMSDIST   返回标准普通累积分布
+NORMSINV   返回反标准普通累积分布
+PEARSON   返回 Pearson 乘积矩相关系数
+PERCENTILE   返回区域中值的第 k 个百分比
+PERCENTRANK   返回数据集中值的百分比排位
+PERMUT   返回对象给定数的排列数
+POISSON   返回泊松分布
+PROB   返回区域中的值在两个限制之间的概率
+QUARTILE   返回数据集的四分位数
+RANK   返回某数在数字列表中的排位
+RSQ   返回 Pearson 乘积力矩相关系数的平方
+SKEW   返回分布的偏斜度
+SLOPE   返回线性回归直线的斜率
+SMALL   返回数据集中的第 k 个最小值
+STANDARDIZE   返回正态化数值
+STDEV   估计样本的标准偏差
+STDEVA   估计样本的标准偏差，包括数字、文本和逻辑值
+STDEVP   计算整个样本总体的标准偏差
+STDEVPA   计算整个样本总体的标准偏差，包括数字、文本和逻辑值
+STEYX   返回通过线性回归法计算 y 预测值时所产生的标准误差
+TDIST   返回学生氏- t 分布
+TINV   返回反学生氏- t 分布
+TREND   返回沿线性趋势的值
+TRIMMEAN   返回数据集的内部平均值
+TTEST   返回与学生氏- t 检验相关的概率
+VAR   估计样本的方差
+VARA   估计样本的方差，包括数字、文本和逻辑值
+VARP   计算整个样本总体的方差
+VARPA   计算整个样本总体的方差，包括数字、文本和逻辑值
+WEIBULL   返回韦伯分布
+ZTEST   返回 z 检验的双尾 P 值
+文本函数
+ASC   将字符串中的全角（双字节）英文字母或片假名更改为半角（单字节）字符。
+CHAR   返回由编码号码所指定的字符
+CLEAN   删除文本中的所有不可打印字符
+CODE   返回文本串中第一个字符的数字编码
+CONCATENATE   将多个文本项连接到一个文本项中
+DOLLAR   使用当前格式将数字转换为文本
+EXACT   检查两个文本值是否相同
+FIND   在其他文本值中查找文本值（区分大小写）
+FIXED   使用固定的十进制数将数字设置为文本格式
+JIS   将字符串中的半角（单字节）英文字符或片假名更改为全角（双字节）字符。
+LEFT   返回文本值中最左边的字符
+LEN   返回文本串中字符的个数
+LOWER   将文本转换为小写
+MID   从文本串中的指定位置开始返回特定数目的字符
+PHONETIC   从文本串中提取拼音 (furigana) 字符
+PROPER   将文本值中每个单词的首字母设置为大写
+REPLACE   替换文本中的字符
+REPT   按给定次数重复文本
+RIGHT   返回文本值中最右边的字符
+SEARCH   在其他文本值中查找文本值（不区分大小写）
+SUBSTITUTE   在文本串中使用新文本替换旧文本
+T   将参数转换为文本
+TEXT   设置数字的格式并将其转换为文本
+TRIM   删除文本中的空格
+UPPER   将文本转换为大写
+VALUE   将文本参数转换为数字
+YEN   使用 ￥ (yen) 货币符号将数字转换为文本。
+
