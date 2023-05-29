@@ -4,35 +4,36 @@ tool_mini:\
 
 ### ÖÆ×÷bld×Ö¿â
 //
-tool_mini:4_·­Òë×Ö¿â\_ttf_to_font\
-tool_mini:4_·­Òë×Ö¿â\_ttf_to_font\_readme.md
+tool_mini:8_×Ö¿â\_ttf_to_font\
+tool_mini:8_×Ö¿â\_ttf_to_font\_readme.md
+
 
 
 ### Ìæ»»µ¥¸ö·­Òë
 //
-tool_mini:4_·­Òë×Ö¿â\_replace_sprd\
-tool_mini:4_·­Òë×Ö¿â\_replace_sprd\_readme.md
+tool_mini:4_·­Òë\_replace_excel_sprd\
+tool_mini:4_·­Òë\_replace_excel_sprd\_readme.md
 
 
 
 ### ºÏ²¢Õû¸ö·­Òë
 //
-tool_mini:4_·­Òë×Ö¿â\_merge_sprd\
-tool_mini:4_·­Òë×Ö¿â\_merge_sprd\_readme.md
+tool_mini:4_·­Òë\_merge_excel_sprd\
+tool_mini:4_·­Òë\_merge_excel_sprd\_readme.md
 
 
 
 ### ÖÆ×÷.bld
 //1.excelµ¼³öµ½txt
 //2.ËÑË÷ËùÓĞÏîÄ¿Í¬Ò»¸ö·­Òë, ÓÃ×÷¶Ô±È
-tool_mini:4_·­Òë×Ö¿â\_excel_to_txt\
-tool_mini:4_·­Òë×Ö¿â\_excel_to_txt\_readme.md
+tool_mini:4_·­Òë\_excel_to_txt\
+tool_mini:4_·­Òë\_excel_to_txt\_readme.md
 
 
 
 ### É¾³ıÎ´Ê¹ÓÃ·­Òë
 //
-tool_mini:4_·­Òë×Ö¿â\_check\
-tool_mini:4_·­Òë×Ö¿â\_check\_readme.md
+tool_mini:4_·­Òë\_check_usage\
+tool_mini:4_·­Òë\_check_usage\_readme.md
 
 
